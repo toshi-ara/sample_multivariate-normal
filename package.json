@@ -1,0 +1,19 @@
+{
+  "name": "sample_multivariate-normal",
+  "version": "0.0.1",
+  "description": "usage of 'multivariate-normal' package",
+  "main": "multivariate_rand.mjs",
+  "scripts": {
+    "build": "node multivariate-normal.mjs && Rscript multivariate-normal.R",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "multivariate-normal": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/multivariate-normal": "^0.1.4"
+  }
+}
